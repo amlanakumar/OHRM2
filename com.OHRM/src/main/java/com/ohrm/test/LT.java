@@ -34,11 +34,7 @@ public class LT extends WebDriverCommonLib{
 		System.out.println("Before Method1");
 	
 	}
-	@AfterMethod
-	public void afterMethodTest(){
-		System.out.println("After Method1");
-	}
-	
+
 	
 
 	@Test(priority = 1)
@@ -48,7 +44,11 @@ public class LT extends WebDriverCommonLib{
 		loginPage.loginToApp();
 		System.out.println("Test Bhai");
 
+	}	@AfterMethod
+	public void afterMethodTest(){
+		System.out.println("After Method1");
 	}
+	
 
 	@AfterClass
 	public void afterClassTest() {
