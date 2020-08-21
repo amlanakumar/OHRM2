@@ -6,7 +6,7 @@ import com.ohrm.genericlib.BRowser;
 import com.ohrm.genericlib.WebDriverCommonLib;
 import com.ohrm.objectrepository.Login ;
 
-public class LT extends WebDriverCommonLib{
+public class LTTest extends WebDriverCommonLib{
 	Login loginPage ;
 	
 	
@@ -25,7 +25,7 @@ public class LT extends WebDriverCommonLib{
 
 	@Test(priority = 1)
 	
-	public void Test1() throws InterruptedException {
+	public void LoginToAppTest() throws InterruptedException {
 		PageFactory.initElements(BRowser.driver, this);
 		loginPage = PageFactory.initElements(BRowser.driver,Login.class);
 		
