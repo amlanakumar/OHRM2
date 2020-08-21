@@ -1,7 +1,9 @@
 package com.ohrm.test;
 
-import org.testng.annotations.Test;
+
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
 import com.ohrm.genericlib.BRowser;
 import com.ohrm.genericlib.WebDriverCommonLib;
 import com.ohrm.objectrepository.Login ;
